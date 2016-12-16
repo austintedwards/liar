@@ -1,0 +1,120 @@
+h1{
+display: flex;
+font-family: "Woody";
+font-size: 45px;
+color: saddlebrown;
+}
+
+body{
+  /*background-color: blanchedalmond;*/
+}
+
+.input{
+  display: flex;
+  font-family: "copperplate";
+  align-content: flex-start;
+}
+
+.checklist{
+  display: flex;
+  flex-direction: row;
+  align-self: flex-end;
+  font-size: 5px;
+  justify-content: space-around;
+
+}
+
+#location{
+  display: flex;
+  width: 40%;
+
+}
+
+#lumber{
+  display: flex;
+  width: 10%;
+  height: 10%;
+}
+
+.label{
+  font-size: 25px;
+}
+
+#slide-out{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#search{
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+#GPS{
+  display: flex;
+  width: 2.5%;
+  height: 2.5%;
+}
+
+.list{
+  display: flex;
+  font-family: "copperplate";
+}
+
+.marker {
+    display: block;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 0;
+}
+
+/*hey*/
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}

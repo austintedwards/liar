@@ -1,0 +1,140 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+
+
+#fire {
+  width: 20px;
+  font-size: 20px;
+}
+
+
+
+.input{
+  display: flex;
+
+}
+.checklist{
+  display: flex;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    color: saddlebrown;
+
+}
+
+#title{
+  font-family: "Woody";
+  font-size: 25px;
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+#lumber{
+  display: flex;
+  width: 30%;
+  height: 30%;
+  flex-direction: row-reverse;
+
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 25px;}
+
+}
+
+h1{
+display: flex;
+font-family: "Woody";
+font-size: 45px;
+color: saddlebrown;
+}
+
+
+
+.input{
+  display: flex;
+  font-family: "woody";
+  align-content: flex-start;
+}
+
+.checklist{
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  font-size: 10px;
+  font-family: "woody";
+  justify-content: space-between;
+
+}
+
+#location{
+  display: flex;
+  width: 100%;
+  font-size: 10px
+
+}
+
+
+.label{
+  font-size: 25px;
+}
+
+#search{
+  display: flex;
+  justify-content: center;
+  height: 30%;
+  font-size: 10px;
+}
+
+#GPS{
+  display: flex;
+  width: 10%;
+  height: 10%;
+}
+
+.list{
+  display: flex;
+  justify-content: flex-start;
+  font-family: "woody";
+}
+
+.marker {
+    display: block;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 0;
+}
+
+.campList{
+  font-family: "woody";
+}

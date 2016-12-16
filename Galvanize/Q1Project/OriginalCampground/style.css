@@ -1,0 +1,66 @@
+h1{
+display: flex;
+font-family: "Woody";
+font-size: 45px;
+color: saddlebrown;
+}
+
+body{
+  /*background-color: blanchedalmond;*/
+}
+
+.input{
+  display: flex;
+  font-family: "copperplate";
+  align-content: flex-start;
+}
+
+.checklist{
+  display: flex;
+  flex-direction: row;
+  align-self: flex-end;
+  font-size: 5px;
+  justify-content: space-around;
+
+}
+
+#location{
+  display: flex;
+  width: 40%;
+
+}
+
+#lumber{
+  display: flex;
+  width: 10%;
+  height: 10%;
+}
+
+.label{
+  font-size: 25px;
+}
+
+#search{
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+#GPS{
+  display: flex;
+  width: 2.5%;
+  height: 2.5%;
+}
+
+.list{
+  display: flex;
+  font-family: "copperplate";
+}
+
+.marker {
+    display: block;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 0;
+}
